@@ -29,7 +29,11 @@ class Main{
         // A.Kakezan(10, 20, 40);
         // A.Warizan(10, 20, 40);
 
-        Enzan A = new Enzan();
-        
+        Enzan A = new Enzan(10, 20, 30);
+        A.Kakezan();
+
+        Hikizan B = new Hikizan(10, 20, 30);
+        B.hikizan();
+
     }
 }
