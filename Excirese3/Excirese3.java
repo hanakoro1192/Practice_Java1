@@ -1,3 +1,5 @@
+package Excirese3;
+
 import java.io.*; //InputStreamReaderに反映
 import java.io.BufferedReader;
 import java.io.IOException;

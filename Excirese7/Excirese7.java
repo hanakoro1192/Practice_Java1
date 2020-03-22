@@ -1,3 +1,5 @@
+package Excirese7;
+
 import java.io.*;
 
 //ここはコピーを実施
@@ -171,7 +173,7 @@ class CoinCase{
         }
     }
 
-public class Excirese6{
+public class Excirese7{
     public static void main(String[] args) throws IOException{
         //問題７−１
         Dog a = new Dog();

@@ -1,3 +1,5 @@
+package Shisokuenzan;
+
 import java.util.Scanner;
 
 //コマンドライン引数を用いたjavaプログラム

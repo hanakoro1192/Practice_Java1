@@ -1,4 +1,6 @@
-class Practice{
+package Excirese;
+
+class Practice {
     public static void main(String[] args) {
         //練習問題1-2
         // int x = 11;
