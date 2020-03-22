@@ -79,22 +79,72 @@ public class Exercise5{
         //     }
         // }
 
-        //もう一度やり直す
+        //もう一度やり直す：問題5-6
+        int kuku[][] = new int[9][];
         
+        for(int i = 0; i < 9; i++){
+            kuku[i] = new int[9];
+
+            for(int j = 0; j < 9; j++){
+                kuku[i][j] = (i + 1)*(j + 1);
+            }
+        }
+
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                System.out.printf( " %2d", kuku[i][j] );
+            }
+            System.out.println();
+        }
+
+        //問題5-6:別解答
+        int Kuku[][] = new int[9][9];
+
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                kuku[i][j] = (i +1)* (j + 1);
+            }
+        }
+
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                System.out.printf( " %2d", kuku[i][j] );
+            }
+            System.out.println();
+        }
+
 
         //問題5-7
-        int kuku[][] = new int[9][9];
+        int ku[][] = new int[9][9];
 
-        for( int i = 0 ; i < 9 ; i++ )
-            for( int j = 0 ; j < 9 ; j++ )
-                kuku[i][j] = ( i + 1 ) * ( j + 1 );
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; i < 9; j++){
+                ku[i][j] = (i + 1)*(j + 1);
+            }
+        }
 
-        int p = Integer.parseInt( a.readLine() );
-        int q = Integer.parseInt( a.readLine() );
+        int p = Integer.parseInt(a.readLine());
+        int q = Integer.parseInt(a.readLine());
 
-        System.out.println( kuku[p-1][q-1] );
+        System.out.println(ku[p - 1][q - 1]);
+    }
 
+    int value[] = new int[10];
 
+    for(int i = 0; i < 10; i++){
+        value[i] = Integer.parseInt(a.readLine());
+    }
 
+    for(int j = 0; j < 10; j++){
+        for(int k = j + 1; k < 10; k++){
+            if(value[i] > value[j]){
+                int t = value[i];
+                value[i] = value[j];
+                value[j] = t;
+            }
+        }
+    }
+    for(int i = 0; i < 10; i++){
+        System.out.println(value[i] + "");
     }
 }
