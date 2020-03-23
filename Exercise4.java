@@ -172,7 +172,7 @@ class Exercise4 {
         System.out.println(sum_kumasanz);
 
 
-        //問題4-13:今日はここまでにする
+        //問題4-13
         int strike = 0;
         int ball = 0;
 
@@ -185,6 +185,26 @@ class Exercise4 {
                 strike++;
             }else if(judge == 2){
                 ball++;
+            }
+        }
+        System.out.println( ball + "ボール," + strike + "ストライク" );
+
+        //問題4-14
+        int strikes = 0;
+        int balls = 0;
+        int file = 0;
+
+        while(strikes < 3 && balls < 4){
+            System.out.println("ストライク=1 or ボール=2 or ファール=3 ?");
+
+            int judge = Integer.parseInt(a.readLine());
+
+            if(judge == 1){
+                strike++;
+            }else if(judge == 2){
+                balls++;
+            }else if(judge == 3 && strike < 2){
+                strike++;
             }
         }
         System.out.println( ball + "ボール," + strike + "ストライク" );
