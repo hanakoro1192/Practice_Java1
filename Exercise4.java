@@ -209,16 +209,18 @@ class Exercise4 {
         }
         System.out.println( ball + "ボール," + strike + "ストライク" );
 
+        //備考:1～5の整数の平均値を求めてみる
+        int value[] = new int[5];
+        double sum_;
 
-    }
-
-    static void MaxValue(int A, int B){
-        if(A > B){
-            System.out.ptintln(A);
-        }else{
-            System.out.ptintln(B);
+        for(int i = 0; i < value.length; i++){
+            sum += value[i];
         }
-        return;
+
+        double ave = sum_ / value.length;
+        System.out.println(ave);
+
     }
+    
 
 }
