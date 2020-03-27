@@ -10,7 +10,7 @@ class Practice {
         int y = 17;
         System.out.println("x = " + x + "y = " + y);
 
-        int sum = x + y;
+        // int sum = x + y;
         int Hang = x * y;
         System.out.println(Hang);
 

@@ -1,3 +1,5 @@
+package excirese5;
+
 import java.io.*;
 
 public class Exercise5{
@@ -18,6 +20,7 @@ public class Exercise5{
         }
 
         int Value[] = new int[10];
+
         for(int i = 0; i < 10; i++){
             Value[i] = Integer.parseInt( a.readLine() );
         }
@@ -71,13 +74,13 @@ public class Exercise5{
         }
 
         //問題5-6 //ここはちょっと異なる
-        // int Kuku[][] = new int[9][9];
+        int Kuku[][] = new int[9][9];
 
-        // for(int i = 0; i < 9; i++){
-        //     for(int j = 0; j < 9; j++){
-        //         System.out.printf( " %2d", Kuku[i][j] );
-        //     }
-        // }
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                System.out.printf( " %2d", Kuku[i][j] );
+            }
+        }
 
         //もう一度やり直す：問題5-6
         int kuku[][] = new int[9][];
@@ -144,7 +147,7 @@ public class Exercise5{
             }
         }
     }
-    for(int i = 0; i < 10; i++){
+    for(int k = 0; k < 10; k++){
         System.out.println(value[i] + "");
     }
 }
