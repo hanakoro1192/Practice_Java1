@@ -1,4 +1,4 @@
-package excirese5;
+package Excirese5;
 
 import java.io.*;
 
@@ -101,7 +101,7 @@ public class Exercise5{
         }
 
         //問題5-6:別解答
-        int Kuku[][] = new int[9][9];
+        int kukume[][] = new int[9][9];
 
         for(int i = 0; i < 9; i++){
             for(int j = 0; j < 9; j++){
