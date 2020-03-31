@@ -98,14 +98,6 @@ class Execire6{
             }
         }
     }
-    
-
-
-    //4つ並べるメソッド：後で実施
-    // public int Keisan(int a, int b, int c, int d){
-
-    // }
-
     //問題6-1のメソッド
     static int Kakeru(int n){
         return n * n;
@@ -134,12 +126,3 @@ class Execire6{
         }
     }
 }
-
-// class Main{
-
-//     public static void main(String[] args){
-//         Execire6 A = new Execire6();
-//         A.Keisan(10, 20, 30, 40);
-//     }
-// }
-

@@ -20,10 +20,7 @@ class Main{
         // System.out.println(Hikizan);
         // System.out.println(Kakezan);
 
-
-        
-
-        // //インスタンスから呼び出す方法;
+        //インスタンスから呼び出す方法;
         // Enzan A = new Enzan();
         // A.sun(10, 20, 40);
         // A.Kakezan(10, 20, 40);
@@ -34,6 +31,5 @@ class Main{
 
         Hikizan B = new Hikizan(10, 20, 30);
         B.hikizan();
-
     }
 }

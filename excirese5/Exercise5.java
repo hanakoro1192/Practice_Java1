@@ -134,20 +134,21 @@ public class Exercise5{
 
     int value[] = new int[10];
 
-    for(int i = 0; i < 10; i++){
-        value[i] = Integer.parseInt(a.readLine());
-    }
+    // for(int i = 0; i < 10; i++){
+    //     value[i] = Integer.parseInt(a.readLine());
+    // }
 
-    for(int j = 0; j < 10; j++){
-        for(int k = j + 1; k < 10; k++){
-            if(value[i] > value[j]){
-                int t = value[i];
-                value[i] = value[j];
-                value[j] = t;
-            }
-        }
-    }
-    for(int k = 0; k < 10; k++){
-        System.out.println(value[i] + "");
-    }
+    // for(int j = 0; j < 10; j++){
+    //     for(int k = j + 1; k < 10; k++){
+    //         if(value[i] > value[j]){
+    //             int t = value[i];
+    //             value[i] = value[j];
+    //             value[j] = t;
+    //         }
+    //     }
+    // }
+
+    // for(int k = 0; k < 10; k++){
+    //     System.out.println(value[i] + "");
+    // }
 }
