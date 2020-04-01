@@ -68,6 +68,7 @@ class Execire6{
             str += "■";
             System.out.print(str + "\n");
     }
+}
 
     static void Sankaku(int n){
         for(int i = 0; i < n; i++){

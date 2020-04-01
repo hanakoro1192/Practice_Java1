@@ -33,11 +33,11 @@ class Enzan{
 
     //メソッドの方法はおかしいset,getはprivateを使用するときだけ
 
-    //メソッドの作成
-    //足し算
-    // public void sun(int a, int b, int c){
-    //     System.out.println(a + b + c);
-    // }
+    // メソッドの作成
+    // 足し算
+    public void sun(int a, int b, int c){
+        System.out.println(a + b + c);
+    }
 
     //足し算
     public void Kakezan(int a, int b, int c){
