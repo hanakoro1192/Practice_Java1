@@ -3,7 +3,7 @@ package Shisokuenzan;
 import java.util.Scanner;
 
 //コマンドライン引数を用いたjavaプログラム
-class Enzan{
+public class Enzan{
 
     int sum;
     int Hikizan;
@@ -79,7 +79,7 @@ class Tasizan extends Enzan{
     }
 }
 
-class Hikizan extends Enzan{
+public class Hikizan extends Enzan{
     //コンストラクタ
     public Hikizan(int sum, int Hikizan, int Kakezan){
         super(sum, Hikizan, Kakezan);
@@ -94,7 +94,7 @@ class Hikizan extends Enzan{
     }
 }
 
-class Warizan extends Enzan{
+public class Warizan extends Enzan{
     //コンストラクタ
     public Warizan(int sum, int Hikizan, int Kakezan){
         super(sum, Hikizan, Kakezan);
@@ -105,4 +105,4 @@ class Warizan extends Enzan{
             Speak();
         }
     }
-    }
+}

@@ -1,5 +1,7 @@
 import java.util.Scanner;
-import Enzan;
+import Shisokuenzan.Enzan;
+import Shisokuenzan.Hikizan;
+
 
 
 class Main{
